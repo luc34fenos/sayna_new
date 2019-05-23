@@ -1,0 +1,815 @@
+/*------- media screens -------*/
+
+/*------- max-widths -------*/
+
+/*------- 1300px -------*/
+
+@media only screen and (max-width: 1200px) {
+header.video-wrapper .video-header-spacing {
+    padding: 50px 0;
+}
+}
+
+/*------- end of 1300px -------*/
+
+
+
+/*------- 1200px -------*/
+
+@media only screen and (max-width: 1200px) {
+.navbar-expand-lg .form-inline {
+    display: block;
+    margin: .5rem auto;
+}
+
+.boxed-container {
+    margin: 0 auto;
+}
+
+#reveal-footer.has-footer-widgets {
+    height: 550px;
+}
+}
+
+/*------- end of 1200px -------*/
+
+
+
+/*------- 1024px -------*/
+
+@media only screen and (max-width: 1024px) {
+.parallax {
+    background-attachment: scroll !important;
+}
+
+#reveal-footer {
+    height: auto;
+}
+
+#reveal-footer.has-footer-widgets {
+    height: auto;
+}
+
+#reveal-footer .reveal-content {
+    position: relative;
+}
+}
+
+/*------- end of 1024 -------*/
+
+
+
+/*------- 991px -------*/
+
+@media only screen and (max-width: 991px) {
+.navbar-expand-lg>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-expand-lg.menu-line.nav-scroll li a span {
+    padding-bottom: 8px;
+}
+
+.navbar-expand-lg.navbar-light .navbar-collapse {
+    background-color: rgba(255,255,255,0.97);
+}
+
+.navbar-expand-lg.navbar-light.nav-scroll .navbar-collapse {
+    background-color: rgba(255,255,255,0.97);
+}
+
+.navbar-expand-lg.navbar-inverse .navbar-collapse {
+    background-color: $inverse-color;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-collapse {
+    margin-top: .625rem;
+}
+
+.nav-link {
+    padding: 1rem 0;
+}
+
+.navbar-expand-lg .navbar-brand {
+    margin-left: 0;
+}
+
+.dropdown-menu {
+    box-shadow: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dropdown-menu.mega-menu {
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    max-height: 260px;
+}
+
+.navbar-expand-lg .mega-menu .sub-menu {
+    border-left: none;
+}
+
+.navbar-expand-lg .mega-menu .sub-menu:first-child {
+    padding-bottom: 0;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+
+.nav-icon .md-icon {
+    margin: 5px;
+}
+
+.icon-dropdowns .form-inline {
+    text-align: center;
+}
+
+.navbar-expand-lg .form-inline {
+    display: block;
+    margin: .5rem auto;
+}
+
+.icon-dropdowns .count {
+    top: 5px;
+    right: auto;
+    margin-left: -8px;
+}
+
+.split-menu .navbar-brand {
+    display: none;
+}
+
+.split-menu .navbar-brand.mobile-brand {
+    display: contents;
+}
+
+.after-dropdown {
+    margin-left: 0;
+}
+
+.custom-menu .dropdown-toggle::after {
+    top: 14px;
+}
+
+.nav-button {
+    margin-left: 0;
+    display: inline-block;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+
+.popover-example .popover {
+    max-width: 100%;
+    width: 44%;
+    margin: 3%;
+}
+
+header {
+    padding: 50px 0;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content.has-raised-content {
+    padding-bottom: 30px;
+}
+
+header.main-demo {
+    background-image: url("../images/bg-img.jpg")
+}
+
+.header-content {
+    padding: 20px 0
+}
+
+#particles-js {
+  height: 400px;
+}
+
+.content-wrapper-raised {
+    margin-top: -30px;
+}
+
+.project-details-image, .project-details-image2, .project-details-image3, .project-details-image4, .project-details-image5, .project-details-image6 {
+    position: relative;
+    height: 500px;
+}
+
+.footer-left-area {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-right-area {
+    text-align: center;
+}
+
+.cta .col-md-8, .cta .col-md-4 {
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.cta .col-md-4 .btn {
+    margin: 12px 0 0 0 !important;
+}
+
+.cs-wrapper .newsletter-form {
+    max-width: 100%;
+}
+}
+
+/*------- end of 991px -------*/
+
+
+
+/*------- 767px -------*/
+
+@media only screen and (max-width: 767px) {
+body.components, html.components {
+    background-color: $light-bg-color;
+}
+
+body.bg-inverse {
+    background: $inverse-color;
+}
+
+.content {
+    background: transparent;
+    padding: 30px 0;
+}
+
+.w80 {
+    max-width: 100% !important;
+}
+
+.w70 {
+    max-width: 100% !important;
+}
+
+.w60 {
+    max-width: 100% !important;
+}
+
+.w50 {
+    max-width: 100% !important;
+}
+
+.content-wrapper-lowered {
+    margin-bottom: 30px;
+}
+
+.navbar-expand-sm .form-inline {
+    display: block;
+    margin: .5rem auto;
+}
+
+#menu-toggle {
+    color: $primary;
+    background: $white;
+    border: 1px solid $light-grey;
+    font-size: 30px;
+    line-height: 1;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px 15px;
+}
+
+#icon-nav-wrapper #menu-toggle {
+    color: $primary;
+    background: $white;
+    border-color: $primary;
+    font-size: 24px;
+    padding: 8px 14px;
+    line-height: 1;
+    display: block;
+}
+
+.sidebar-nav-inverse #menu-toggle {
+    color: $primary;
+    background: $inverse-color;
+    border: none;
+}
+
+#icon-nav-wrapper.side-nav-inverse #menu-toggle {
+    color: $primary;
+    background: $inverse-color;
+    border: none;
+}
+
+#info, #info2 {
+    padding: 50px 0;
+}
+
+.feature.block {
+    margin: 30px 0 !important;
+}
+
+.feature-left .feature-icon {
+    position: relative;
+    float: none;
+    left: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.feature-right .feature-icon {
+    position: relative;
+    float: none;
+    right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.feature-left .feature {
+    text-align: center;
+    padding-left: 0;
+}
+
+.feature-right .feature {
+    text-align: center;
+    padding-right: 0;
+}
+
+.feature-left .feature.block.wimage {
+    text-align: center;
+    padding-left: 0;
+}
+
+.feature-right .feature.block.wimage {
+    text-align: center;
+    padding-right: 0;
+}
+
+.feature-block-image {
+    margin: 0 auto !important;
+}
+
+header .breadcrumb.text-right {
+    text-align: left !important;
+    margin-top: 15px;
+}
+
+.fact-title {
+    margin-bottom: 30px;
+}
+
+.cta .col-sm-8, .cta .col-sm-4 {
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.cta .col-sm-4 .btn {
+    margin: 12px 0 0 0 !important;
+}
+
+.hide-tablet {
+    display: none !important;
+}
+
+.cs-wrapper {
+    max-width: 100%;
+}
+
+.scroll-to-top {
+    display: none;
+}
+
+footer .text-left, footer .text-right {
+    display: block !important;
+    text-align: center !important;
+}
+}
+
+/*------- end of 767px -------*/
+
+
+
+/*------- 575px -------*/
+
+@media only screen and (max-width: 575px) {
+.container {
+    width: 100%;
+}
+
+.navbar-expand-lg > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-toggler-right {
+    right: 0;
+}
+
+.navbar-toggler-left {
+   left: 0;
+}
+
+.header-content {
+    padding: 0 15px;
+}
+
+.form-inline .form-control {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-inline .btn {
+    display: block;
+    width: 70%;
+    margin: 5px auto;
+}
+
+.popover-example .popover {
+    width: 90%;
+    margin: 5%;
+}
+
+.top-menu {
+    text-align: center;
+}
+
+.top-menu .left-area {
+    display: block;
+    float: none !important;
+    margin-bottom: 10px;
+    padding: 0 !important;
+}
+
+.top-menu .right-area {
+    display: block;
+    float: none !important;
+    padding: 0 !important;
+}
+
+#countdown {
+    width: 300px !important;
+}
+
+.error-wrapper .search-form {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+}
+
+/*------- end of 575px -------*/
+
+
+
+/*------- 480px -------*/
+
+@media only screen and (max-width: 480px) {
+header h1 {
+    font-size: 1.875rem;
+}
+
+header h2 {
+    font-size: 1.75rem;
+}
+
+header h3 {
+    font-size: 1.5rem;
+}
+
+.project-details-image, .project-details-image2, .project-details-image3, .project-details-image4, .project-details-image5, .project-details-image6 {
+    height: 300px;
+}
+
+.custom-form .left-area {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.custom-form .right-area {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.custom-form .left-area.long {
+    width: 100%;
+}
+
+.custom-form .right-area.long {
+    width: 100%;
+}
+
+.custom-form .left-area.short {
+    width: 100%;
+}
+
+.custom-form .right-area.short {
+    width: 100%;
+}
+
+.modal-footer.custom-form {
+    display: block;
+}
+
+#countdown {
+    width: 100% !important;
+}
+
+.hide-mobile {
+    display: none !important;
+}
+}
+
+/*------- end of 480px -------*/
+
+
+
+/*------- 400px -------*/
+
+@media only screen and (max-width: 400px) {
+.top-nav {
+    text-align: center;
+}
+
+.top-nav .left {
+    display: block;
+}
+
+.top-nav .right {
+    float: none;
+    display: block;
+}
+
+.pager {
+    text-align: center;
+}
+
+.pager-left, .pager-right {
+    display: block;
+}
+
+.pager-right {
+    float: none;
+}
+}
+
+/*------- end of 480px -------*/
+
+/*------- end of max-widths -------*/
+
+
+
+
+/*------- min-and-max-widths -------*/
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+.custom-form .left-area {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.custom-form .right-area {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.custom-form .left-area.long {
+    width: 100%;
+}
+
+.custom-form .right-area.long {
+    width: 100%;
+}
+
+.custom-form .left-area.short {
+    width: 100%;
+}
+
+.custom-form .right-area.short {
+    width: 100%;
+}
+}
+
+/*------- end of min-and-max-widths -------*/
+
+
+
+
+/*------- min-widths -------*/
+
+/*------- 576px -------*/
+
+@media only screen and (min-width: 576px) {
+.container {
+    max-width: 640px;
+}
+
+.col-sm-6.sub-col-left {
+    padding-right: 7.5px;
+}
+
+.col-sm-6.sub-col-right {
+    padding-left: 7.5px;
+}
+}
+
+/*------- end of 576px -------*/
+
+
+
+/*------- 768px -------*/
+
+@media only screen and (min-width: 768px) {
+.container {
+    max-width: 800px;
+}
+
+.col-md-6.sub-col-left {
+    padding-right: 7.5px;
+}
+
+.col-md-6.sub-col-right {
+    padding-left: 7.5px;
+    width: 100%;
+}
+
+#wrapper {
+    padding-left: 300px;
+}
+
+#wrapper.toggled {
+    padding-left: 0;
+}
+
+#sidebar-wrapper {
+    width: 300px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 0;
+}
+
+#page-content-wrapper {
+    position: relative;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+}
+
+#icon-nav-wrapper {
+    padding-left: 100px;
+}
+
+#icon-nav-wrapper.toggled {
+    padding-left: 0;
+}
+
+#icon-nav-sidebar-wrapper {
+    width: 100px;
+}
+
+#icon-nav-wrapper.toggled #icon-nav-sidebar-wrapper {
+    width: 0;
+}
+
+#icon-nav-page-content-wrapper {
+    position: relative;
+}
+
+#icon-nav-wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+}
+}
+
+/*------- end of 768px -------*/
+
+
+
+/*------- 992px -------*/
+
+@media only screen and (min-width: 992px) {
+.container {
+    max-width: 960px;
+}
+
+.container.container-lg {
+    max-width: 1100px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 1.5rem;
+}
+
+.custom-menu.navbar-expand-lg .navbar-nav .nav-link {
+    padding: .75rem 1rem;
+}
+
+.menu-pills .navbar-nav .nav-link {
+    padding: 1rem 1.75rem !important;
+    margin: 0 2px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu.mega-menu {
+    min-width: 360px;
+}
+
+.navbar-expand-lg .icon-dropdowns .nav-link {
+    padding: .75rem !important;
+}
+
+.navbar-expand-lg.stacked-menu>.container {
+    display: block;
+}
+
+.col-lg-6.sub-col-left {
+    padding-right: 7.5px;
+}
+
+.col-lg-6.sub-col-right {
+    padding-left: 7.5px;
+}
+
+#portfolio.col4 .project-title {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+#portfolio.col4 .project-skill {
+    font-size: 10px;
+    padding-top: 5px;
+}
+}
+
+/*------- end of 992px -------*/
+
+
+
+/*------- 1200px -------*/
+
+@media only screen and (min-width: 1200px) {
+.container {
+    max-width: 1240px;
+}
+}
+
+/*------- end of 1200px -------*/
+
+/*--- end of min-widths ---*/
+
+
+/*--- max-heights ---*/
+
+@media only screen and (max-height: 480px) {
+.hamburger-nav .navbar-collapse .navbar-nav {
+    top: 15%;
+}
+
+.hamburger-nav .navbar-collapse .nav-link {
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-height: 320px) {
+.hamburger-nav .navbar-collapse .navbar-nav {
+    top: 5%;
+}
+
+.hamburger-nav .navbar-collapse .nav-link {
+    font-size: 12px;
+}
+}
+
+/*--- end of max-heights ---*/
+
+/*------- end of media screens -------*/
