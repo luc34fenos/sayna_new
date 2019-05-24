@@ -491,7 +491,7 @@ header .eco_nav nav {
 	padding: 0;
 }
 header .eco_nav nav .navbar-brand img {
-	height: 37px;
+	height: 108px;
 	width: auto;
 }
 header .eco_nav nav .navbar-nav .single_nav {
@@ -4669,7 +4669,7 @@ footer .copytight_info ul li a:hover {
 	width: 100%;
 }
 .event_details_page .event_details_wrapper .location_bottom_wrapper .event_details .event_location_info ul {
-	width: 50%;
+	width: 84%;
 }
 .event_details_page .event_details_wrapper .location_bottom_wrapper .event_details .event_location_info ul li {
 	margin-bottom: 15px;
