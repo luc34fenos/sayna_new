@@ -1,0 +1,30 @@
+.sub_header_banner:before {
+    background: none;
+    /* background: rgba(32, 207, 231, .4); /* sayna code color */
+}
+.sub_header_banner {
+    /* border: 3px solid gold; */
+}
+.sub_header_banner:after {
+    background: rgba(32, 207, 231, .7); /* sayna code color */
+    /* background: rgba(250, 250, 250, .7); /* white */
+}
+
+.thp-banner {
+    /* border: 1px solid red; */
+    margin: 5% 5% 5% 5%;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+}
+
+@media only screen and (max-width: 991px) {
+    .thp-banner {
+        margin: 10% 5% 5% 5%;
+    }
+}
+
+.event_signle_3.thp4 {
+    border: 1px solid gold;
+    background: url('images/thp4.png') cover no-repeat;
+}

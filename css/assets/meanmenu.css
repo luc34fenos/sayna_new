@@ -25,15 +25,15 @@ a.meanmenu-reveal {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .mean-container .mean-bar::before {
-    background: url("../../images/logo2.png") no-repeat center center / cover;
-    height: 17px;
-    width: 84px;
+    background: url("../../images/sayna.png") no-repeat center center / contain;
+    height: 60px;
+    width: 65px;
     content: "";
     left: 20px;
     position: absolute;
     text-transform: uppercase;
-    top: 22px;
     z-index: 1;
+    top: -5px;
 }
 
 .mean-container a.meanmenu-reveal {
