@@ -7153,3 +7153,101 @@ footer .copytight_info ul li a:hover {
 	background: #2f2f2f;
 }
 /*# sourceMappingURL=style.css.map */
+
+/*--- spacers ---*/
+.spacer {
+  margin: 15px 0;
+  line-height: 0;
+}
+
+.spacer-2x {
+  margin: 30px 0;
+  line-height: 0;
+}
+
+.spacer-3x {
+  margin: 45px 0;
+  line-height: 0;
+}
+
+.spacer-line {
+  width: 50px;
+  line-height: 0;
+  border-bottom: 2px solid #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacer-line-2x {
+  width: 100px;
+  line-height: 0;
+  border-bottom: 2px solid #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacer-line-solid {
+  width: 50px;
+  line-height: 0;
+  border-bottom: 4px solid #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacer-line-solid-2x {
+  width: 100px;
+  line-height: 0;
+  border-bottom: 4px solid #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacer-line-full-width {
+  width: 100%;
+  line-height: 0;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.space {
+  margin: 15px !important;
+}
+
+.space-2x {
+  margin: 30px !important;
+}
+
+.space-3x {
+  margin: 45px !important;
+}
+
+.space-top {
+  margin-top: 15px !important;
+}
+
+.space-top-2x {
+  margin-top: 30px !important;
+}
+
+.space-bottom {
+  margin-bottom: 15px !important;
+}
+
+.space-bottom-2x {
+  margin-bottom: 30px !important;
+}
+
+.space-left {
+  margin-left: 15px !important;
+}
+
+.space-left-2x {
+  margin-left: 30px !important;
+}
+
+.space-right {
+  margin-right: 15px !important;
+}
+
+.space-right-2x {
+  margin-right: 30px !important;
+}
