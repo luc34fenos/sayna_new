@@ -25,3 +25,10 @@ console.log(span);
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+// When the user leave the img
+$(document).click(function (e) {
+	if ($(e.target).is('#myModal')) {
+		$('#myModal').fadeOut(500);
+	}
+});

@@ -1624,7 +1624,7 @@ footer .footer_signle_item_4 {
 	padding-left: 50px;
 }
 footer .footer_logo {
-	height: 38px;
+	height: 110px;
 }
 footer .contact_info {
 	margin: 0;
@@ -4613,7 +4613,7 @@ footer .copytight_info ul li a:hover {
 /*=======[ Events Details Page ]========*/
 
 .event_details_page .sub_header_banner {
-	background: transparent url("../images/event_details.png") no-repeat center center/cover;
+	background:  url("../images/event_details.png") no-repeat center center/cover;
 }
 .event_details_page .event_details_wrapper {
 	padding: 130px 0 100px;
@@ -4636,11 +4636,11 @@ footer .copytight_info ul li a:hover {
 	#20CFE7;
 }
 .event_details_page .event_details_wrapper .event_intro .post_content .blog_post_content p {
-	margin-bottom: 30px;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 30px;
-	color: #2f2f2f;
+	margin-bottom: 6px;
+	font-size: 21px;
+	font-weight: 298;
+	line-height: 35px;
+	color: #0d0d0e;
 }
 .event_details_page .event_details_wrapper .event_intro .post_content .blog_post_content p:last-child {
 	margin-bottom: 0;
