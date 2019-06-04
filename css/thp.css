@@ -2,6 +2,11 @@
     background: none;
 }
 
+.events_wrapper {
+    height: 37%;
+    overflow-y: scroll;
+}
+
 .thp-banner {
     margin: 5% 5% 5% 5%;
     height: 100%;
@@ -13,39 +18,45 @@
         margin: 10% 5% 7% 5%;
         padding: 10% 5% 5% 5%;
     }
-    .sub_header_banner:before {
-    }
+
+    .sub_header_banner:before {}
+
     .sub_header_banner {
         min-height: 150px;
     }
+
     .event_details_page .event_details_wrapper {
         padding: 0;
     }
+
     .post-title {
         text-align: center;
     }
 }
 
-.event_details_wrapper ul li{
+.event_details_wrapper ul li {
     color: #444444;
     margin-left: 20px;
     font-size: 1.1rem !important;
     letter-spacing: 0.03rem;
 }
 
-.event_details_wrapper h5, .recent-post-title{
+.event_details_wrapper h5,
+.recent-post-title {
     font-weight: 1000;
 }
 
-.event_details_wrapper .col-12.col-sm-12.col-md-12.col-lg-8,.event_details_wrapper .col-12.col-sm-12.col-md-6.col-lg-4 {
+.event_details_wrapper .col-12.col-sm-12.col-md-12.col-lg-8,
+.event_details_wrapper .col-12.col-sm-12.col-md-6.col-lg-4 {
     padding-top: 1rem;
-    margin-bottom: 1em; 
+    margin-bottom: 1em;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
+
 .blockquote {
-  border-left: 0.2rem solid #7460ef;
-  padding: 1rem 1.5rem;
-  background: #eeeeee;
+    border-left: 0.2rem solid #7460ef;
+    padding: 1rem 1.5rem;
+    background: #eeeeee;
 }
 
 .post-title {
@@ -63,80 +74,97 @@ p {
 
 /* Style the Image Used to Trigger the Modal */
 .myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.myImg:hover {opacity: 0.7;}
+.myImg:hover {
+    opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
-  animation-name: zoom;
-  animation-duration: 0.6s;
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
 /* The Close Button */
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
 }
