@@ -1427,6 +1427,10 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 
 .our_instructors .team-single-item {
     overflow: hidden;
+    width: 340px;
+    height: 380px;
+    margin: 0px 0px 0px -30px;
+    padding: 0px;
 }
 
 .our_instructors .team-single-item figure {
@@ -8487,25 +8491,28 @@ footer .copytight_info ul li a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-.mahita, .mahita1 {
-	display: flex;
-	justify-content: center;
+
+.mahita {
+	display: block;
+	width: 100%;
+}
+
+.mahita1 {
+	display: inline-block;
+	width: 280px;
+}
+
+#img01 {
+	height: 480px;
+	width: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+	#img01 {
+		height: 280px;
+		width: auto;
+	}
 }
 
 /* End of scrollbar */
-@media screen and (max-width: 770px)
-{
-	.mahita {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-}
-
-
-@media screen and (max-width: 420px)
-{
-	.mahita, .mahita1 {
-		display: block;
-	}
-}
