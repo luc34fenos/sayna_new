@@ -8487,5 +8487,25 @@ footer .copytight_info ul li a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+.mahita, .mahita1 {
+	display: flex;
+	justify-content: center;
+}
 
 /* End of scrollbar */
+@media screen and (max-width: 770px)
+{
+	.mahita {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+
+@media screen and (max-width: 420px)
+{
+	.mahita, .mahita1 {
+		display: block;
+	}
+}
