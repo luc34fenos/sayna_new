@@ -3643,6 +3643,7 @@ footer .copytight_info ul li a:hover {
 }
 
 .header_wrapper_4 .intro_wrapper_4 {
+
     text-align: left;
     min-height: 850px;
     position: relative;
@@ -3655,8 +3656,13 @@ footer .copytight_info ul li a:hover {
     height: 100%;
 }
 
-.header_wrapper_4 .intro_wrapper_4 .banner_4 img {
+
+.header_wrapper_4 .banner_4 img {
+
     width: auto;
+}
+.header_wrapper_4 .intro_wrapper_4 {
+  background-image: url('images/staff.JPG');
 }
 
 .header_wrapper_4 .intro_wrapper_4 .intro-text {
@@ -3665,10 +3671,11 @@ footer .copytight_info ul li a:hover {
 }
 
 .header_wrapper_4 .intro_wrapper_4 .intro-text h1 {
+
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
-    color: #2f2f2f;
+    color: white;
     margin-bottom: 40px;
 }
 
@@ -3676,7 +3683,7 @@ footer .copytight_info ul li a:hover {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    color: #2f2f2f;
+    color: white;
     margin-bottom: 80px;
 }
 
@@ -3684,6 +3691,7 @@ footer .copytight_info ul li a:hover {
     background: transparent;
     padding: 22px 93px;
     font-size: 18px;
+
     font-weight: 600;
     border: 1px solid #2f2f2f;
     margin-right: 30px;
@@ -4065,7 +4073,7 @@ footer .copytight_info ul li a:hover {
 }
 
 .counter_3:before {
-    background: #65D5FF;
+  
     content: "";
     height: 100%;
     left: 0;
@@ -4361,7 +4369,7 @@ footer .copytight_info ul li a:hover {
 }
 
 .take_tour .about_top_wrapper .take_tour_banner {
-    background: transparent url("../images/video_4.jpg") no-repeat center center/cover;
+    background: transparent url("../images/staff.JPG") no-repeat center center/cover;
     position: relative;
     min-height: 615px;
     z-index: 1;
